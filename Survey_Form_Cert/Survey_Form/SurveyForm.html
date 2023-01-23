@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
+    </header>
+    <div class="container">
+        <form action="" id="survey-form">
+            <div class="form-group">
+                <label for="name">Name: <input type="text" placeholder="Enter your name" id="name" required></label>
+            </div>
+            <div class="form-group">
+                <label for="email">Email: <input type="email" placeholder="Enter your email" id="email"
+                        required></label>
+            </div>
+            <div class="form-group">
+                <label for="age">Age(optional): <input type="number" id="number" min="13" max="120"
+                        placeholder="age"></label>
+            </div>
+            <div class="form-group">
+                <p>Which option decribes your current role?</p>
+                <select name="" id="">
+                    <option value="">Select an option</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full time job</option>
+                    <option value="3">Full time learner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>How likely is that you would recomment freeCodeCamp to a friend?</p>
+                <input type="radio" name="" id=""> <label for="">Definetly</label>
+                <input type="radio" name="" id=""> <label for="">Maybe</label>
+                <input type="radio" name="" id=""> <label for="">Not sure</label>
+            </div>
+            <div class="form-group">
+                <p>What do you like most in FCC:</p>
+                <select name="" id="">
+                    <option value="">Select an option</option>
+                    <option value="1">Challenges</option>
+                    <option value="2">Projects</option>
+                    <option value="3">Community</option>
+                    <option value="4">Open Source</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Things that should be improved in the future (Check all that apply):</p>
+                <input type="checkbox" name="" id=""><label for="">Front-End Projects</label>
+                <input type="checkbox" name="" id=""><label for="">Back-End Projects</label>
+                <input type="checkbox" name="" id=""><label for="">Data Visualization</label>
+                <input type="checkbox" name="" id=""><label for="">Challenges</label>
+                <input type="checkbox" name="" id=""><label for="">Open Source Community</label>
+                <input type="checkbox" name="" id=""><label for="">Gitter Help Rooms</label>
+                <input type="checkbox" name="" id=""><label for="">Videos</label>
+                <input type="checkbox" name="" id=""><label for="">City Meetups</label>
+                <input type="checkbox" name="" id=""><label for="">Wiki</label>
+                <input type="checkbox" name="" id=""><label for="">Forum</label>
+                <input type="checkbox" name="" id=""><label for="">Additional Courses</label>
+                <p>Any Comments or Suggestions?</p><textarea name="" id="" cols="70" rows="5"
+                    placeholder="Enter your comment here......"></textarea>
+            </div>
+            <div class="form-group">
+                <img src="../Survey_Form/images/Dancing-Anime-GIF-Transparent.gif" alt="">
+                <input type="submit" value="Submit" />
+                <img src="../Survey_Form/images/Dancing-Anime-GIF-Transparent.gif" alt="">
+            </div>
+        </form>
+    </div>
+    <!-- <img src="../Survey_Form/images/hiddenleaf1.png" alt="Hidden Leaf Symbol" id="hiddenleaf"> -->
+</body>
+
+</html>
