@@ -1,0 +1,20 @@
+#main {
+    margin: 35px 10px;
+    padding: 12px;
+    border-radius: 4px;
+    background: #eee;
+}
+
+main {
+    display: block;
+}
+
+img {
+    display: block;
+}
+
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
