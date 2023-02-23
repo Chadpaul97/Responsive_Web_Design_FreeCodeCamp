@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <link rel="stylesheet" href="./style.css">
     <title>Survey Form</title>
 </head>
 
@@ -18,19 +19,19 @@
         <form action="" id="survey-form">
             <div class="form-group">
                 <label for="name">Name: </label>
-                <input type="text" placeholder="Enter your name" id="name" required>
+                <input type="text" placeholder="Enter your name" id="name" required class="form-control">
             </div>
             <div class="form-group">
                 <label for="email">Email: </label>
-                <input type="email" placeholder="Enter your email" id="email" required>
+                <input type="email" placeholder="Enter your email" id="email" required class="form-control">
             </div>
             <div class="form-group">
                 <label for="age">Age(optional): </label>
-                <input type="number" id="number" min="13" max="120" placeholder="age">
+                <input type="number" id="number" min="13" max="120" placeholder="age" class="form-control">
             </div>
             <div class="form-group">
                 <p>Which option decribes your current role?</p>
-                <select name="" id="">
+                <select name="" id="" class="form-control">
                     <option value="">Select an option</option>
                     <option value="1">Student</option>
                     <option value="2">Full time job</option>
@@ -39,7 +40,7 @@
                     <option value="5">other</option>
                 </select>
             </div>
-            <div class="form-group">
+            <div class="form-group" id="Radios">
                 <p>How likely is that you would recomment freeCodeCamp to a friend?</p>
                 <label for=""><input type="radio" name="" id=""> Definetly</label>
                 <label for=""><input type="radio" name="" id=""> Maybe</label>
@@ -70,7 +71,7 @@
                 <label for=""><input type="checkbox" name="" id="">Additional Courses</label>
             </div>
             <div class="form-group">
-                <p>Any Comments or Suggestions?</p><textarea name="" id="" cols="70" rows="5"
+                <p>Any Comments or Suggestions?</p><textarea name="" id=""
                     placeholder="Enter your comment here......"></textarea>
             </div>
             <div class="form-group">
